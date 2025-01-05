@@ -1,0 +1,14 @@
+.box{
+    background-color: bisque;
+    border: 3px solid lightcoral;
+    
+}
+.text{
+    /* trbl  top right bottom left*/
+    padding: 20px;
+    color: blue;
+    margin:20px;
+    border: 3px solid lightcoral;
+    padding: 5px;
+
+}   
