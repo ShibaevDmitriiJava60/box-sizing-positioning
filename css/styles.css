@@ -1,14 +1,35 @@
-.box{
-    background-color: bisque;
-    border: 3px solid lightcoral;
-    
-}
-.text{
-    /* trbl  top right bottom left*/
-    padding: 20px;
-    color: blue;
-    margin:20px;
-    border: 3px solid lightcoral;
-    padding: 5px;
+.boxes {
+   border: 3px solid red;
+   position: relative;
+   width: 500px;
+   height: 500px;
 
-}   
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border-radius: 50px;
+}
+
+.box-one{
+    border: 6px solid black; 
+     background-color: transparent;
+    position: fixed; 
+    }
+
+.box-two{
+    background-color: aqua;
+    left: 50px;
+    top: 100px;
+    z-index:-1;
+    position: absolute;
+}
+
+.box-three{
+    background-color: blueviolet;
+    position: absolute;
+    left:50px;
+    z-index: -2;
+}
