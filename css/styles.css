@@ -26,8 +26,8 @@
 .box-yellow{
     border: 7px solid yellow; 
     background-color: transparent;
-    left: 75px;
     top: 70px;
+    left: 75px;
     z-index:-1;
 }
 
