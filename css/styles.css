@@ -12,20 +12,19 @@
     width: 100px;
     height: 100px;
     position: absolute;
+    background-color: transparent;
     border-radius: 60px; 
+    top: 20px;
 
 }
 
 .box-blue{
     border: 7px solid blue;  
-    background-color: transparent;
-    top: 20px;
     left: 5px;
     }
 
 .box-yellow{
-    border: 7px solid yellow; 
-    background-color: transparent;
+    border: 7px solid yellow;
     top: 70px;
     left: 75px;
     z-index:-1;
@@ -33,15 +32,12 @@
 
 .box-black{
     border: 7px solid black;
-    background-color: transparent;
-    top:20px;
     left:145px;
     z-index: -2;
 }
 
 .box-green{
     border: 7px solid green;
-    background-color: transparent;
     top: 70px;
     left: 215px;
     z-index: -3;
@@ -49,8 +45,6 @@
 
 .box-red{
     border: 7px solid red;
-    background-color: transparent;
-    top:20px;
     left: 285px;
     z-index: -4;
     
