@@ -1,38 +1,3 @@
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-.box{
-    background-color:burlywood;
-    border: 1px solid black;
-       
-    /* width: 500px; */
-    margin: 10px;
+.meal{
     
-}
-
-.container div:first-child{
-    background-color: aqua;
-}
-
-@media screen and (min-width: 500px) {
-    .container{
-     flex-direction: row;
-    }
-    /* .box{
-        width: 300px;
-    } */
-}
-
-@media screen and (min-width:900px){
-    .box {
-        background-color: blue;
-        color: white;
-    }    
-
-    .container div:first-child{
-        background-color: bisque;
-        color: black;
-    }
 }
