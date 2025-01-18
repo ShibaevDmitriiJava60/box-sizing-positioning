@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <img src="images/meal.jpg" alt="bowl with salmon" class="meal" srcset="images/meal.jpg 1x, images/meal@2x.jpg 2x, images/meal@3.jpg 3x">
+    <picture>
+        <source media="(max-width:500px)" srcset="images/meal-cropped.jpg 1x, images/meal-cropped@2x.jpg 2x">
+        <source media="(max-width:500px)" srcset="images/meal.jpg 1x , images/meal@2x.jpg 2x">
+        <img src="images/meal.jpg" alt="meal">
+    </picture>
 </body>
 </html>
